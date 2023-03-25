@@ -2,7 +2,7 @@
  
 This is an extremely barebones, first-pass POC that shows how an Arduino Leonardo could be used to emulate a Raildriver's main analog inputs for Run8.
 
-To use this project, you'll need [HID-Project by NicoHOod](https://github.com/NicoHood/HID). This can be installed from the Arduino Library Manager. You also must modify your `boards.txt` file to reference the Raildriver's VID and PID:
+To use this project, you'll need [HID-Project by NicoHood](https://github.com/NicoHood/HID). This can be installed from the Arduino Library Manager. You also must modify your `boards.txt` file to reference the Raildriver's VID and PID:
 
 ```
 ...

@@ -3,7 +3,6 @@
 
 #include "controller.cpp"
 
-uint8_t rawhidData[255];
 
 Controller* c = new Controller();
 
@@ -55,8 +54,6 @@ void loop()
   Serial.print(dynamicBrake);
   Serial.print(",ComputedThrottle:"); // mixed throttle/dynamic brake for Run8
   Serial.println(c->getThrottle());
-  
-  
 
   writeBuffer[0] = c->getReverser();
   writeBuffer[1] = c->getThrottle();

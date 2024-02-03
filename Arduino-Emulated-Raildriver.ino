@@ -20,6 +20,8 @@ int independentBrake = 0;
 
 // Raildriver only sends 15 bytes, but there's a bug with one of the Arduino libraries where buffers under 64 bytes won't send. Sending 64 doesn't cause a problem.
 uint8_t writeBuffer[64]; 
+uint8_t rawhidData[255];
+
 
 void setup()
 {
